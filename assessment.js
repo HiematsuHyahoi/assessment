@@ -86,6 +86,6 @@ console.assert(
 
 userNameinput.onkeydown=event(){
     if(event.key==='Enter'){
-        assessmentButton.onclick();
+        assessmentButton.onclick()
     }
 };

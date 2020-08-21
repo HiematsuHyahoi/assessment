@@ -84,8 +84,8 @@ console.assert(
     '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。'
 );
 
-userNameinput.onkeydown=event(){
+userNameinput.onkeydown=event() {
     if(event.key==='Enter'){
-        assessmentButton.onclick()
+        assessmentButton.onclick();
     }
 };
